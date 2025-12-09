@@ -1,0 +1,35 @@
+.dark-prple-bg {
+    background-color: #221b31;
+}
+
+.comics-btn {
+    background-color: #412770;
+    color: white;
+    border: white solid 2px;
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+}
+
+.comics-btn:hover {
+    background-color: white;
+    color: #412770;
+    cursor: pointer;
+}
+
+.comics-btn:active {
+    background-color: green;
+}
+
+.comics-amazon-btn {
+    background-color: #fcd603;
+    color: black;
+    border: black solid 2px;
+    width: 250px;
+    height: 40px;
+    margin: 20px;    
+}
+
+.comics-amazon-btn:hover {
+    cursor: pointer;
+}
