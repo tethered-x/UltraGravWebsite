@@ -122,6 +122,17 @@ a:hover {
     float: left;
 }
 
+.new-main-content-section {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.new-cover-img {
+    float: left;
+    width: 33%;
+}
+
 .main-content-comics-section {
     float: right;
 }
