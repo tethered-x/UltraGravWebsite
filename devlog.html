@@ -8,71 +8,61 @@
     <title>ULTRA-GRAVITY</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="https://ultra-gravity.com">
-                <img src="./images/header.webp" alt="Logo" height="32" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://ultra-gravity.com">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">DevLog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Press Kits</a>
-                    </li>
-                    <!-- <li class="nav-item">
+    <nav class="navbar navbar-expand-lg" style="background-color: blueviolet;"">
+        <div class=" container">
+        <a class="navbar-brand" href="index.html">
+            <img src="./images/header.webp" alt="Logo" height="32" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Press Kits</a>
+                </li>
+                <!-- <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li> -->
-                </ul>
-            </div>
-            <div class="d-flex">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://store.steampowered.com/search/?developer=Ultra-Gravity"
-                            target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                                class="bi bi-steam" viewBox="0 0 16 16">
-                                <path
-                                    d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z" />
-                                <path
-                                    d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.twitch.tv/thetethereds" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                                class="bi bi-twitch" viewBox="0 0 16 16">
-                                <path
-                                    d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142z" />
-                                <path d="M11.857 3.143h-1.143V6.57h1.143zm-3.143 0H7.571V6.57h1.143z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.youtube.com/@ultragravity" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                                class="bi bi-youtube" viewBox="0 0 16 16">
-                                <path
-                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            </ul>
+        </div>
+        <div class="d-flex">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://store.steampowered.com/search/?developer=Ultra-Gravity" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-steam" viewBox="0 0 16 16">
+                            <path d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z" />
+                            <path d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.twitch.tv/thetethereds" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                            <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142z" />
+                            <path d="M11.857 3.143h-1.143V6.57h1.143zm-3.143 0H7.571V6.57h1.143z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/@ultragravity" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
         </div>
     </nav>
     <div class="container">
@@ -80,8 +70,8 @@
         <br>
         <div class="row">
             <div class="container" style="text-align: center;">
-                <img src="./images/DevLog/RE-CLAIM_logo.webp" alt="RE-CLAIM logo" width="50%">
-                <h3>Development Logs</h3>
+                <img src="./images/ultra-gravity_white-border-logo.png" alt="ULTRA-GRAVITY logo">
+                <h3>Publisher Blog</h3>
             </div>
         </div>
         <br>
@@ -89,198 +79,206 @@
         <div class="row">
 
 
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/Screenshot_2026-05-29_082941.png" class="card-img-top" alt="Screenshot_2026-05-29_082941.png Missing">
-    <div class="card-body">
-    <h5 class="card-title">016: COMICS: Final Issue of Planet Ultra Uploaded to GlobalComix</h5>
-    <p class="card-text">The final issue of Planet Ultra Vol. One has been uploaded to GlobalComix. The final 8 chapters start dropping next Wednesday and will release until the end of July. Once all of Volume One is available on GlobalComix (for FREE I might add), I will start uploading Planet Ultra 2.... but not for free. Maybe $2 per issue. Which is cheaper that it'd be to buy it in print. If you want to check it out, go to https://globalcomix.com/c/planet-ultra to catch up!</p>
-    <p class="card-text"><small class="text-body-secondary">29-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/Screenshot_2026-05-28_142658.png" class="card-img-top" alt="Screenshot_2026-05-28_142658.png Missing">
-    <div class="card-body">
-    <h5 class="card-title">015: COMICS: Planet Ultra 2 is here! </h5>
-    <p class="card-text">Quite literally. The first prints of the collected volume arrived today. It is surreal that it took me only 6 months to complete this book. Now I have the itch to make more comics. Which puts a little damper on my game development ambitions. </p>
-    <p class="card-text"><small class="text-body-secondary">28-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/pu23_0038.jpg" class="card-img-top" alt="pu23_0038.jpg Missing">
-    <div class="card-body">
-    <h5 class="card-title">014: PLANET ULTRA 2 Completed</h5>
-    <p class="card-text">Not related to RE-CLAIM, other than I finished Planet Ultra 2. A graphic novel follow up to my very first graphic novel released a few years ago. With that being completed I can now dedicate my free time on RE-CLAIM. I also wanted to share an image that my wife and daughter drew that will be in the publications of Planet Ultra 2. I'll make a new blog post and "Press Release" on Planet Ultra 2 later on this week.</p>
-    <p class="card-text"><small class="text-body-secondary">25-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/Screenshot_2026-05-21_160441.png" class="card-img-top" alt="Screenshot_2026-05-21_160441.png Missing">
-    <div class="card-body">
-    <h5 class="card-title">013: Now I am posting this from my prod server</h5>
-    <p class="card-text">The last posts were in my development environment, but now this post comes from my production server. I'm hosting it on a Raspberry Pi, and it isn't necessary. However, my dev stuff is on Windows, and my prod stuff is on Linux... so it is worth a test.</p>
-    <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/Screenshot_2026-05-21_155338.png" class="card-img-top" alt="Screenshot_2026-05-21_155338.png Missing">
-    <div class="card-body">
-    <h5 class="card-title">012: One more time, just for kicks. </h5>
-    <p class="card-text">I saw an error in my logs from the previous post. Just making sure I don't get it again.</p>
-    <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/Screenshot_2026-05-21_153827.png" class="card-img-top" alt="Screenshot_2026-05-21_153827.png Missing">
-    <div class="card-body">
-    <h5 class="card-title">011: You know what they say, third time's the charm</h5>
-    <p class="card-text">Okay, I updated all of my bugs... hopefully this works as intended.</p>
-    <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/Screenshot_2026-05-21_153827.png.png" class="card-img-top" alt="Screenshot_2026-05-21_153827.png.png Missing">
-    <div class="card-body">
-    <h5 class="card-title">010: Uh, this is test number two</h5>
-    <p class="card-text">Luckily, I don't think anyone is reading these at this point. This is test number two.</p>
-    <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-    <div class="container col-md-4">
-    <div class="card mb-3">
-    <img src="./images/DevLog/Screenshot_2026-05-21_153827.png.png" class="card-img-top" alt="Screenshot_2026-05-21_153827.png.png Missing">
-    <div class="card-body">
-    <h5 class="card-title">009: Created a newer blog updater</h5>
-    <p class="card-text">This new blog updater is being run from a Flask application that I built to keep track of all my project ideas. Hopefully, this solution works for the future posts on this website.</p>
-    <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
-    </div>
-    </div>
-    </div>
-    
-
-
-
-
-                <div class="container col-md-4">
-                    <div class="card mb-3">
-                        <img src="./images/DevLog/05-15-26.png" class="card-img-top" alt="05-15-26.png Missing">
-                        <div class="card-body">
-                            <h5 class="card-title">008: Color Customization Take 2</h5>
-                            <p class="card-text">I'm thinking if I override my model's texture with a new one in Godot, I can just just modify the "Color" in the "Albedo" section with the HEX code I want to use. 
-
-For example: 
-Yellow - f5d591
-Pink - ff91af
-Teal - 86f4d2
-Red - e40041
-Orange - ff702b
-Blue - 78aad0
-Green - 73ffa0
-Purple - c688f1
-Gray - 888c8e
-</p>
-                            <p class="card-text"><small class="text-body-secondary">15-May-2026 by <a
-                                        href="#">&commat;Tethered</a></small></p>
-                        </div>
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/Screenshot_2026-05-29_082941.png" class="card-img-top" alt="Screenshot_2026-05-29_082941.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">016: COMICS: Final Issue of Planet Ultra Uploaded to GlobalComix</h5>
+                        <p class="card-text">The final issue of Planet Ultra Vol. One has been uploaded to GlobalComix. The final 8 chapters start dropping next Wednesday and will release until the end of July. Once all of Volume One is available on GlobalComix (for FREE I might add), I will start uploading Planet Ultra 2.... but not for free. Maybe $2 per issue. Which is cheaper that it'd be to buy it in print. If you want to check it out, go to https://globalcomix.com/c/planet-ultra to catch up!</p>
+                        <p class="card-text"><small class="text-body-secondary">29-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Comics</a>,<a href="#">Planet Ultra</a></small></p>
                     </div>
                 </div>
+            </div>
 
 
 
 
 
-                <div class="container col-md-4">
-                    <div class="card mb-3">
-                        <img src="./images/DevLog/05-13-26.png" class="card-img-top" alt="05-13-26.png Missing">
-                        <div class="card-body">
-                            <h5 class="card-title">007: Trying out character customization</h5>
-                            <p class="card-text">One thing that my kid really enjoys about some video games, is the ability to customize their character. While it's too early in the development process to have something really robust, I have been playing around with the idea of different selectable colors for the jump suits. These are different texture pngs, and I have ideas to simpify this process in Godot with one texture. I will need to experiment more with this after reimporting a more optimized player model. </p>
-                            <p class="card-text"><small class="text-body-secondary">13-May-2026 by <a
-                                        href="#">&commat;Tethered</a></small></p>
-                        </div>
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/Screenshot_2026-05-28_142658.png" class="card-img-top" alt="Screenshot_2026-05-28_142658.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">015: COMICS: Planet Ultra 2 is here! </h5>
+                        <p class="card-text">Quite literally. The first prints of the collected volume arrived today. It is surreal that it took me only 6 months to complete this book. Now I have the itch to make more comics. Which puts a little damper on my game development ambitions. </p>
+                        <p class="card-text"><small class="text-body-secondary">28-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Comics</a>,<a href="#">Planet Ultra</a></small></p>
                     </div>
                 </div>
+            </div>
 
 
 
 
 
-                <div class="container col-md-4">
-                    <div class="card mb-3">
-                        <img src="./images/DevLog/05-12-26.png" class="card-img-top" alt="05-12-26.png Missing">
-                        <div class="card-body">
-                            <h5 class="card-title">006: This is an Automated Update</h5>
-                            <p class="card-text">As in, I used the same tool as before, but I can commit directly to GitHub now without having to use GitHub Desktop to push out the new post. Yay!</p>
-                            <p class="card-text"><small class="text-body-secondary">12-May-2026 by <a
-                                        href="#">&commat;Tethered</a></small></p>
-                        </div>
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/pu23_0038.jpg" class="card-img-top" alt="pu23_0038.jpg Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">014: PLANET ULTRA 2 Completed</h5>
+                        <p class="card-text">Not related to Ship Runners, other than I finished Planet Ultra 2. A graphic novel follow up to my very first graphic novel released a few years ago. With that being completed I can now dedicate my free time on Ship Runners. I also wanted to share an image that my wife and daughter drew that will be in the publications of Planet Ultra 2. I'll make a new blog post and "Press Release" on Planet Ultra 2 later on this week.</p>
+                        <p class="card-text"><small class="text-body-secondary">25-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Comics</a>,<a href="#">Planet Ultra</a></small></p>
                     </div>
                 </div>
+            </div>
 
 
-                <div class="container col-md-4">
-                    <div class="card mb-3">
-                        <img src="./images/DevLog/05-12-26.png" class="card-img-top" alt="05-12-26.png Missing">
-                        <div class="card-body">
-                            <h5 class="card-title">005: Made a new blog updater</h5>
-                            <p class="card-text">Since this website is host on GitHub, I wanted to make a way to update my blog without having to customize my HTML every single time. There might be better ways to do this, but here I am using a Custom Tkinter app I made in 30 min!</p>
-                            <p class="card-text"><small class="text-body-secondary">12-May-2026 by <a
-                                        href="#">&commat;Tethered</a></small></p>
-                        </div>
+
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/Screenshot_2026-05-21_160441.png" class="card-img-top" alt="Screenshot_2026-05-21_160441.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">013: Now I am posting this from my prod server</h5>
+                        <p class="card-text">The last posts were in my development environment, but now this post comes from my production server. I'm hosting it on a Raspberry Pi, and it isn't necessary. However, my dev stuff is on Windows, and my prod stuff is on Linux... so it is worth a test.</p>
+                        <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Software</a>,<a href="#">Project Buddy</a></small></p>
                     </div>
                 </div>
+            </div>
 
 
 
-             <div class="container col-md-4">
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/Screenshot_2026-05-21_155338.png" class="card-img-top" alt="Screenshot_2026-05-21_155338.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">012: One more time, just for kicks. </h5>
+                        <p class="card-text">I saw an error in my logs from the previous post. Just making sure I don't get it again.</p>
+                        <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Software</a>,<a href="#">Project Buddy</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/Screenshot_2026-05-21_153827.png" class="card-img-top" alt="Screenshot_2026-05-21_153827.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">011: You know what they say, third time's the charm</h5>
+                        <p class="card-text">Okay, I updated all of my bugs... hopefully this works as intended.</p>
+                        <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Software</a>,<a href="#">Project Buddy</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/Screenshot_2026-05-21_153827.png.png" class="card-img-top" alt="Screenshot_2026-05-21_153827.png.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">010: Uh, this is test number two</h5>
+                        <p class="card-text">Luckily, I don't think anyone is reading these at this point. This is test number two.</p>
+                        <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Software</a>,<a href="#">Project Buddy</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/Screenshot_2026-05-21_153827.png.png" class="card-img-top" alt="Screenshot_2026-05-21_153827.png.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">009: Created a newer blog updater</h5>
+                        <p class="card-text">This new blog updater is being run from a Flask application that I built to keep track of all my project ideas. Hopefully, this solution works for the future posts on this website.</p>
+                        <p class="card-text"><small class="text-body-secondary">21-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Software</a>,<a href="#">Project Buddy</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/05-15-26.png" class="card-img-top" alt="05-15-26.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">008: Color Customization Take 2</h5>
+                        <p class="card-text">I'm thinking if I override my model's texture with a new one in Godot, I can just just modify the "Color" in the "Albedo" section with the HEX code I want to use.
+
+                            For example:
+                            Yellow - f5d591
+                            Pink - ff91af
+                            Teal - 86f4d2
+                            Red - e40041
+                            Orange - ff702b
+                            Blue - 78aad0
+                            Green - 73ffa0
+                            Purple - c688f1
+                            Gray - 888c8e
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">15-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/05-13-26.png" class="card-img-top" alt="05-13-26.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">007: Trying out character customization</h5>
+                        <p class="card-text">One thing that my kid really enjoys about some video games, is the ability to customize their character. While it's too early in the development process to have something really robust, I have been playing around with the idea of different selectable colors for the jump suits. These are different texture pngs, and I have ideas to simpify this process in Godot with one texture. I will need to experiment more with this after reimporting a more optimized player model. </p>
+                        <p class="card-text"><small class="text-body-secondary">13-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/05-12-26.png" class="card-img-top" alt="05-12-26.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">006: This is an Automated Update</h5>
+                        <p class="card-text">As in, I used the same tool as before, but I can commit directly to GitHub now without having to use GitHub Desktop to push out the new post. Yay!</p>
+                        <p class="card-text"><small class="text-body-secondary">12-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container col-md-4">
+                <div class="card mb-3">
+                    <img src="./images/DevLog/05-12-26.png" class="card-img-top" alt="05-12-26.png Missing">
+                    <div class="card-body">
+                        <h5 class="card-title">005: Made a new blog updater</h5>
+                        <p class="card-text">Since this website is host on GitHub, I wanted to make a way to update my blog without having to customize my HTML every single time. There might be better ways to do this, but here I am using a Custom Tkinter app I made in 30 min!</p>
+                        <p class="card-text"><small class="text-body-secondary">12-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container col-md-4">
                 <div class="card mb-3">
                     <img src="./images/DevLog/05-10-26.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -290,8 +288,8 @@ Gray - 888c8e
                             you disrespect it. It only has an idle animation, but eventually it will follow the player,
                             attack the player, or rest in the carrying pouch held by the player.
                         </p>
-                        <p class="card-text"><small class="text-body-secondary">10-May-2026 by <a
-                                    href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">10-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
                     </div>
                 </div>
             </div>
@@ -307,8 +305,8 @@ Gray - 888c8e
                             side. There were some issues with animation timing, but I fixed that in Godot by telling
                             the script to wait for an animation to complete before moving forward.
                         </p>
-                        <p class="card-text"><small class="text-body-secondary">09-May-2026 by <a
-                                    href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">09-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
                     </div>
                 </div>
             </div>
@@ -322,8 +320,8 @@ Gray - 888c8e
                             real looking characer. This one is based on a sketch design I did when I first started out
                             creating the concept of this game (more details on that later).
                         </p>
-                        <p class="card-text"><small class="text-body-secondary">06-May-2026 by <a
-                                    href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">06-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
                     </div>
                 </div>
             </div>
@@ -339,8 +337,8 @@ Gray - 888c8e
                             threw in there for the character. It looks like nothing at the moment... because it pretty
                             much is. However, a journey of a 1000 miles still takes just a single step to get started.
                         </p>
-                        <p class="card-text"><small class="text-body-secondary">05-May-2026 by <a
-                                    href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">05-May-2026 by <a href="#">&commat;Tethered</a></small></p>
+                        <p class="card-text"><small class="text-body-secondary">Tags: <a href="#">Games</a>,<a href="#">Ship Runners</a></small></p>
                     </div>
                 </div>
             </div>
@@ -356,9 +354,7 @@ Gray - 888c8e
         </div>
     </footer>
     <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
