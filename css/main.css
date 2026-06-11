@@ -45,3 +45,7 @@
     /* Alternatively, if you want a fixed expanded height: */
     /* height: 675px; (keeps the 450px width aspect ratio) */
 }
+
+body {
+    background-color: #121212;
+}
